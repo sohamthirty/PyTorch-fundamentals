@@ -12,3 +12,9 @@ Repository for documenting my progress on learning PyTorch.
 
 ## Autograd
 - • Creates a computational graph to calculate gradients in BackPropogation.
+
+## Back Propagation
+- • During the training of the network, it calculates and adjusts the weights based on the error between the predicted output and the desired output. The goal is to minimize this error and improve the network's performance.
+- • It contains 1. Forward Pass, 2. Computing Local Gradients 3. Backward Pass: compute dLoss/dWeights using chain rule and computational graph.
+
+![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/4d8b758a-a8a3-48f7-9c25-137a93a9f53e)
