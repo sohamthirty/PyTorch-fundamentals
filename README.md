@@ -22,3 +22,12 @@ Repository for documenting my progress on learning PyTorch.
 ## Gradient Descent
 - • It is an optimization algorithm that iteratively adjusts weights in the direction of steepest descent of the loss function to find the minimum.
 - • Run epochs for n_iters times with a learning-rate: use forward(x), loss(y, y_pred), gradient using Autograd, Update the weights (not a part of the computational graph) & ensure to make gradients zero at the end of each epoch.
+
+
+## Training Pipeline:
+1) Design Model (input, output size, forward pass) using torch.nn
+2) Construct loss and optimizer
+3) Training Loop
+    - forward pass  : compute prediction
+    - backward pass : gradients ([w,b] = model.parameters())
+    - update weights (optimizer.step())
