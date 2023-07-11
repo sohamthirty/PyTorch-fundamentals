@@ -22,6 +22,7 @@ Repository for documenting my progress on learning PyTorch.
 ## Gradient Descent
 - • It is an optimization algorithm that iteratively adjusts weights in the direction of steepest descent of the loss function to find the minimum.
 - • Run epochs for n_iters times with a learning-rate: use forward(x), loss(y, y_pred), gradient using Autograd, Update the weights (not a part of the computational graph) & ensure to make gradients zero at the end of each epoch.
+- • import torch.nn as nn
 
 
 ## Training Pipeline:
@@ -31,3 +32,28 @@ Repository for documenting my progress on learning PyTorch.
     - forward pass  : compute prediction
     - backward pass : gradients ([w,b] = model.parameters())
     - update weights (optimizer.step())
+
+## Linear Regression:
+- • y_pred = self.linear(x)
+- • nn.MSELoss()
+- • torch.optim.SGD(model.parameters(), lr = learning_rate)
+
+## Logistic Regression:
+- • y_pred = torch.sigmoid(self.linear(x))
+- • nn_BCELoss()
+- • torch.optim.SGD(model.parameters(), lr = learning_rate)
+
+
+## Dataset & Dataloader:
+- • It is time-consuming to do gradient calculatuions on training data of large datasets, so we divide samples into smaller batches.
+- loop over epoch: loop over batches -> optimization based only on the batches
+
+- • epoch = one forward and backward pass of ALL training samples
+- batch_size = number of training samples used in one forward/backward pass
+- number of iterations = number of passes, each pass (forward+backward) using [batch_size] number of samples
+- e.g : 100 samples, batch_size=20 -> 100/20=5 iterations for 1 epoch
+
+- • from torch.utils.data import Dataset, DataLoader
+- dataset = WineDataset()
+- dataloader = DataLoader(dataset=dataset, batch_size=4, shuffle=True)
+- dataiter = iter(dataloader)
