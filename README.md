@@ -34,26 +34,27 @@ Repository for documenting my progress on learning PyTorch.
     - update weights (optimizer.step())
 
 ## Linear Regression:
-- • y_pred = self.linear(x)
-- • nn.MSELoss()
-- • torch.optim.SGD(model.parameters(), lr = learning_rate)
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/9af22054-0753-4549-b7f4-2c553ba24d56)
+
 
 ## Logistic Regression:
-- • y_pred = torch.sigmoid(self.linear(x))
-- • nn_BCELoss()
-- • torch.optim.SGD(model.parameters(), lr = learning_rate)
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/c06a5f12-293d-4ab0-80a4-24a2a86ab145)
 
 
 ## Dataset & Dataloader:
-- • It is time-consuming to do gradient calculatuions on training data of large datasets, so we divide samples into smaller batches.
-- loop over epoch: loop over batches -> optimization based only on the batches
+- • It is time-consuming to do gradient calculatuions on training data of large datasets, so we divide samples into smaller batches.</br>Do loop over epoch: loop over batches -> optimization based only on the batches.
 
 - • epoch = one forward and backward pass of ALL training samples
-- batch_size = number of training samples used in one forward/backward pass
-- number of iterations = number of passes, each pass (forward+backward) using [batch_size] number of samples
+- • batch_size = number of training samples used in one forward/backward pass
+- • number of iterations = number of passes, each pass (forward+backward) using [batch_size] number of samples
 - e.g : 100 samples, batch_size=20 -> 100/20=5 iterations for 1 epoch
 
-- • from torch.utils.data import Dataset, DataLoader
-- dataset = WineDataset()
-- dataloader = DataLoader(dataset=dataset, batch_size=4, shuffle=True)
-- dataiter = iter(dataloader)
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/084c1e9d-fdb9-4cf8-807b-a924a2ac692c)
+
+
+## Transforms:
+- • it allows to modify data in various ways before feeding it into the model.
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/adcff2f4-afe8-4b56-b325-284256edc1ce)
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/cfad5cf5-2d79-4d72-ba2e-14b16b1abdef)
+
+
