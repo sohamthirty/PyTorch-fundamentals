@@ -71,3 +71,28 @@ Repository for documenting my progress on learning PyTorch.
 - • **Neural Net classification**
 - ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/aa0119cb-f3a7-4aa9-b0d1-ba639f015246)
 - ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/b9573071-04b9-429a-ad53-6a05b5468fb9)
+  
+
+## Activation functions:
+- • Activation functions apply a Non-Linear transformation and decide whether a neuron should be activated or not.</br>
+• without Activation functions, the network would not learn anything and just be a linear model.
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/61812d44-a058-4357-a603-66a787f57ef5)
+
+1) **Step function** : ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/6c1ecf1e-4a8d-445d-81bf-0b26204eadcf)
+
+2) **Sigmoid** : ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/e4834096-b518-4b07-8fd4-2b468fc593a4)
+- used in last layer of binary classification problem. (outputs probability between 0 and 1)
+
+3) **TanH** : ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/d09088ba-35a4-45c0-bdab-c46804d3f963)
+- used for hidden layers. (Scaled & Shifted with values between -1 and 1)
+
+4) **ReLU** : ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/dfeaaedb-dcd0-48c7-8cf0-f2870a04e915)
+- used for hidden layers. (outputs 0 for -ve values & the value for +ve values)
+
+5) **Leaky ReLU** : ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/657d8f01-f901-4f66-a926-64ada220e876)
+- solves vanishing gradient problem. (multiplies the output for -ve values by some small values)
+
+6) **Softmax** : ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/7e860c1b-0b5b-42d5-b2db-d624bdb7cdec)
+- used in last layer of multi-class classification problem. (outputs probabilities between 0 and 1)
+
+
