@@ -58,3 +58,16 @@ Repository for documenting my progress on learning PyTorch.
 - ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/cfad5cf5-2d79-4d72-ba2e-14b16b1abdef)
 
 
+## Softmax layer & Cross-Entropy loss:
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/fc17708c-60a9-4aa7-a474-44b6565e0bc0)
+- • **Softmax Layer** applies the exponential function to each element & normalizes them by the sum of all exponentials.</br>
+• it converts logits to probabilities such that the output is between 0 and 1. (highest logit has highest probability)
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/1774404e-930f-4486-99f2-82d41e42064b)
+
+- • **Cross-Entropy loss** is generally combined with softmax function. (bad prediction means high cross-entropy loss)</br>
+• PyTorch already implements softmax layer along with Cross-Entropy loss.</br>
+• here, Y is not one-hot encoded and Y_pred is logits and not softmax normalized values.
+
+- • **Neural Net classification**
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/aa0119cb-f3a7-4aa9-b0d1-ba639f015246)
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/b9573071-04b9-429a-ad53-6a05b5468fb9)
