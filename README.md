@@ -96,3 +96,16 @@ Repository for documenting my progress on learning PyTorch.
 - – used in last layer of multi-class classification problem. (outputs probabilities between 0 and 1)
 
 
+## Feed Forward Neural Network:
+- • **Device Configuration**
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/95ece859-a02e-4622-99e4-0da52dfc7e84)
+- • **Hyperparameters**
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/914b12c4-d335-4180-9e66-7464cb2f504b)
+- • **DataLoader**
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/273b2c9f-157e-471c-93aa-049400e7c89c)
+- • **Model**
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/046935c4-44da-45a8-8de9-b3cbea7d7dbd)
+- • **Training loop**
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/1cc35a9f-e3ca-4cf3-ba2c-f5a41e871c29)
+- • **Test**
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/dd14de87-c0af-4feb-9313-312bbb8a11ac)
