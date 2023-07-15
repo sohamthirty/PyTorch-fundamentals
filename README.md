@@ -109,3 +109,13 @@ Repository for documenting my progress on learning PyTorch.
 - ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/1cc35a9f-e3ca-4cf3-ba2c-f5a41e871c29)
 - • **Test**
 - ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/dd14de87-c0af-4feb-9313-312bbb8a11ac)
+
+
+## Convolution Neural Network:
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/b683a16a-aa40-4191-98ee-5addb5708621)
+- • **Hyperparameters**
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/95070429-5374-4740-87b4-212715cbe347)
+- • **DataLoader**
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/29241a9f-903d-4633-aa01-6bd8935b0cd8)
+- • **Model**
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/353ac5b8-b847-47ad-9a8b-0f22cfe806c2)
