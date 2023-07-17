@@ -119,3 +119,22 @@ Repository for documenting my progress on learning PyTorch.
 - ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/29241a9f-903d-4633-aa01-6bd8935b0cd8)
 - • **Model**
 - ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/353ac5b8-b847-47ad-9a8b-0f22cfe806c2)
+
+
+## Transfer Learning:
+- • A pre-trained model, trained on a large dataset, is utilized as a starting point for a new task, typically by reusing and fine-tuning the learned features.
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/a821a7c4-4e90-4fee-b215-8542432b9a27)
+
+- • **DataLoader**</br>
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/28f88221-76eb-47c0-837b-9ebc834ce165)
+
+- • **Model**</br>
+• model.state_dict() contains the learnable parameters, such as weights and biases organized as a Python dictionary.
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/a4489bd1-6ab8-4309-bb3b-41d3c8d26920)
+
+- • **ResNet**</br>
+• Freeze the network except the final layer. (Load a pre-trained model and reset final fully connected layer)</br>
+• set requires_grad == False to freeze the parameters so that the gradients are not computed in backward().</br>
+• Learning rate scheduling should be applied after optimizer’s update.
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/965633b1-0e0c-448f-af2f-57a39415978e)
+
