@@ -138,3 +138,15 @@ Repository for documenting my progress on learning PyTorch.
 • Learning rate scheduling should be applied after optimizer’s update.
 - ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/965633b1-0e0c-448f-af2f-57a39415978e)
 
+
+## TensorBoard:
+• provides the visualization and tooling needed for machine learning experimentation.
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/11309416-e3dc-4408-99d7-70798605deb4)
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/cd28f84b-5859-4d0c-8f0c-b7d25d9dd264)
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/454155a7-0570-4660-bd40-dd9daea5d1b8)
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/75bd3275-9155-4e57-ad42-2035ae95645d)
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/a6c32634-a76b-4e68-8aff-b5f372837447)
+
+
+
+
