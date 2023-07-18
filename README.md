@@ -145,7 +145,10 @@ Repository for documenting my progress on learning PyTorch.
 - ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/cd28f84b-5859-4d0c-8f0c-b7d25d9dd264)
 - ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/454155a7-0570-4660-bd40-dd9daea5d1b8)
 - ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/75bd3275-9155-4e57-ad42-2035ae95645d)
-- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/a6c32634-a76b-4e68-8aff-b5f372837447)
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/a6c32634-a76b-4e68-8aff-b5f372837447)</br></br>
+• **Visuals:**
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/e1aaeb85-7513-414d-a50b-6513a24cfb6c)
+
 
 
 
