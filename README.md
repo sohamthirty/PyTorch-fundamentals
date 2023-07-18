@@ -140,7 +140,9 @@ Repository for documenting my progress on learning PyTorch.
 
 
 ## TensorBoard:
-• provides the visualization and tooling needed for machine learning experimentation.
+• provides the visualization and tooling needed for machine learning experimentation.</br>
+• pip install tensorboard</br>
+• tensorboard --logdir=runs</br>
 - ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/11309416-e3dc-4408-99d7-70798605deb4)
 - ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/cd28f84b-5859-4d0c-8f0c-b7d25d9dd264)
 - ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/454155a7-0570-4660-bd40-dd9daea5d1b8)
