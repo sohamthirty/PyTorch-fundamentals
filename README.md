@@ -163,4 +163,6 @@ Repository for documenting my progress on learning PyTorch.
 - ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/b62d6bc9-da7b-4e9a-b7c3-aaf3fb7943f4)
 
 
-
+## References:
+- **1. [PyTorch Tutorials | PyTorch.org](https://pytorch.org/tutorials/)**
+- **2. [Deep Learning With PyTorch - Full Course | Patrick Loeber](https://youtu.be/c36lUUr864M)**
