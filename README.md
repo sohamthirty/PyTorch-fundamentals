@@ -152,6 +152,15 @@ Repository for documenting my progress on learning PyTorch.
 - ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/e1aaeb85-7513-414d-a50b-6513a24cfb6c)
 
 
+## Save & Load models:
+• **1. lazy way: save whole model**
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/e6431400-098f-47a2-ae30-acf643711e6f)
+- 
+• **2. recommended way: save only the state_dict**
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/2dec3b30-c005-4df3-b8d9-e62da2444237)
+- 
+• **3. Checkpoints**
+- ![image](https://github.com/sohamthirty/PyTorch-fundamentals/assets/56295513/b62d6bc9-da7b-4e9a-b7c3-aaf3fb7943f4)
 
 
 
