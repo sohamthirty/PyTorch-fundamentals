@@ -1,6 +1,7 @@
 # PyTorch-fundamentals
 
-Repository for documenting my progress on learning PyTorch.
+Repository for documenting my progress on learning PyTorch.</br>
+Checkout the article here: **[Fundamentals of PyTorch](https://sohamthirty.hashnode.dev/fundamentals-of-pytorch)**
 
 ## Installation
 - • Install PyTorch version-Stable(2.0.1) for CUDA 11.7 from **[PyTorch.org](https://pytorch.org/get-started/locally/)** in virtual environment using Anaconda Prompt.
